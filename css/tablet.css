@@ -1,0 +1,50 @@
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  #banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .avatar-container {
+    display: none;
+  }
+
+  .personal-info-heading {
+    font-size: 22px;
+  }
+
+  .job-info-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cert-award-upper {
+    padding-bottom: 65px;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .cert-award-left {
+    grid-template-columns: 1fr;
+    padding-right: 10px;
+    border-right: 1px solid #d6c08d;
+    gap: 2.5%;
+  }
+
+  .cert-award-right {
+    padding-left: 20px;
+    grid-template-columns: 1fr;
+    gap: 6%;
+    border-left: none;
+  }
+
+  .cert-award-lower {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    padding-top: 0;
+  }
+
+  .table-text {
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+}
